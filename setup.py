@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="xontrib-dir-picker",
-    version="1.0.0",
+    version="1.0.1",
     packages=find_packages(exclude=["tests*", "img*"]),
     install_requires=[],
     author="Andrey Chausenko",
