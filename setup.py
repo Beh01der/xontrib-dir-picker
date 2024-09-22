@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="xontrib-dir-picker",
     version="1.0.0",
-    packages=find_packages(exclude=["tests*"]),
+    packages=find_packages(exclude=["tests*", "img*"]),
     install_requires=[],
     author="Andrey Chausenko",
     author_email="andrey@memz.au",
@@ -21,4 +21,5 @@ setup(
         "Topic :: Terminals",
     ],
     python_requires=">=3.6",
+    package_data={"xontrib-dir-picker": ["xontrib/*.xsh"]},
 )
