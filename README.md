@@ -2,7 +2,7 @@
 
 ## Description
 
-This modules utilizes `zoxide query -i` command for directory selection
+This module utilizes `zoxide query -i` command for directory selection
 ![dir-picker](./img/dir-picker.png)
 
 ## Requirements
